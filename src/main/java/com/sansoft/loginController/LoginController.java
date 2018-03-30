@@ -25,6 +25,10 @@ public class LoginController {
         return "sign-up";
     }
 
+    @RequestMapping("/user")
+    public String getUser(){
+        return "user";
+    }
 
 
 }

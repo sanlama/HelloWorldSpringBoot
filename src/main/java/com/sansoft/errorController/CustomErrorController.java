@@ -1,10 +1,8 @@
 package com.sansoft.errorController;
 
-import com.sansoft.EoorHamdling.ErrorHamdlingModel;
 import org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.ModelAndView;
 
