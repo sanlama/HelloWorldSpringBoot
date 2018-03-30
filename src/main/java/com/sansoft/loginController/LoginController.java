@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class LoginController {
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String getPage(){
-        return "sign-in";
+        return "index";
     }
 
-    @RequestMapping("/login")
+    @RequestMapping("/sign-in")
     public String getLoginPage(){
         return "sign-in";
     }

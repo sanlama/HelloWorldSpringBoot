@@ -1,4 +1,4 @@
-package com.helloworld.HelloWorldSpringBoot;
+package com.helloworld.sansoft.HelloWorldSpringBoot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

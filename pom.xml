@@ -6,7 +6,7 @@
 	<groupId>com.helloworld</groupId>
 	<artifactId>HelloWorldSpringBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>HelloWorldSpringBoot</name>
 	<description>Demo project for Spring Boot</description>
@@ -51,6 +51,11 @@
 			<version>1.2</version>
 		</dependency>
 
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>-->
 
 		<!--spring security-->
 
